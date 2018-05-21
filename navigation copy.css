@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	display: 100vw;
+	font-size: 16px;
+}
+
+body {
+	background-color: red;
+	font-family: Lato, san-serif;
+}
+
+.navigation-background {
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	background-image: radial-gradient(#0bcae8, #120be8);
+	z-index:1000;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, .4);
+	transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+
+	/*transform: scale(80);*/
+}
+
+.navigation-button {
+	background-color: white;
+	height: 5rem;
+	width: 5rem;
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	border-radius: 50%;
+	z-index: 3000;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+.navigation-checkbox {
+	/*display: none;*/
+}
+
+.navigation-nav {
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: -100%;
+	z-index: 1500;
+	opacity: 0;
+	width: 0;
+	transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.0);
+
+}
+
+.navigation-list {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	list-style: none;
+	text-align: center;
+	width: 100%;
+}
+
+.navigation-link {
+	display: inline-block;
+ font-size: 3rem;
+ font-weight: 300;
+ padding: 1rem 2rem;
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+ background-image: linear-gradient(120deg, transparent 0%, transparent 50%,  white 50%);
+ background-size: 217%;
+ transition: all .4s;
+ 
+}
+
+.navigation-item {
+margin: 1rem;
+
+}
+
+.navigation-link:hover, :active {
+	background-position: 100%;
+	color: #0bcae8;
+	transform: translateX(1rem);
+}
+
+
+/*Functionality*/
+.navigation-checkbox:checked ~ .navigation-background {
+	transform: scale(80);
+
+}
+
+.navigation-checkbox:checked ~ .navigation-nav {
+	opacity: 1;
+	width: 100%;
+  left: 0;
+
+}
+
+/*Icon*/
+ .navigation-icon {
+	width: 2rem;
+	height: 2px;
+	background-color: #333;
+	display: inline-block;
+	content: "";
+	position: relative;
+	margin-top: 1.5rem;
+
+}
+
+.navigation-icon:before {
+	width: 2rem;
+	height: 2px;
+	background-color: #333;
+	display: inline-block;
+	content: "";
+	position: absolute;
+	left: 0;
+	top: -.8rem;
+	transition: all .2s;
+}
+
+.navigation-icon:after {
+	width: 2rem;
+	height: 2px;
+	background-color: #333;
+	display: inline-block;
+	content: "";
+	position: absolute;
+	top: .8rem;
+	left: 0;
+	transition: all .2s;
+}
+
+.navigation-button:hover .navigation-icon:before {
+	top: -1rem;
+}
+.navigation-button:hover .navigation-icon:after {
+	top: 1rem;
+}
+
+
+.navigation-checkbox:checked + .navigation-button .navigation-icon {
+	background-color: transparent;
+}
+
+.navigation-checkbox:checked + .navigation-button .navigation-icon:before {
+	transform: rotate(135deg);
+	top: 0;
+}
+
+.navigation-checkbox:checked + .navigation-button .navigation-icon:after {
+	transform: rotate(-135deg);
+	top: 0;
+}
+
+
+
+
+
+
