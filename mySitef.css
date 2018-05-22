@@ -89,6 +89,157 @@ body {
 }
 }
 
+
+/*Navigation*/
+
+.navigation-background {
+  height: 3.3rem;
+  width: 3.3rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background-image: radial-gradient(#0bcae8, #120be8);
+  z-index:1000;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .4);
+  transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+
+}
+
+.navigation-button {
+  background-color: white;
+  height: 3.3rem;
+  width: 3.3rem;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  border-radius: 50%;
+  z-index: 3000;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.navigation-checkbox {
+  display: none;
+}
+
+.navigation-nav {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 1500;
+  opacity: 0;
+  width: 0;
+  transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.0);
+
+}
+
+.navigation-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+.navigation-link {
+ display: inline-block;
+ font-size: 3rem;
+ font-weight: 300;
+ padding: 1rem 1rem;
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+ background-image: linear-gradient(120deg, transparent 0%, transparent 50%,  white 50%);
+ background-size: 250%;
+ transition: all .4s;
+ }
+
+.navigation-item {
+margin: 1rem;
+}
+
+.navigation-link:hover {
+  background-position: 100%;
+  color: #0bcae8;
+  transform: translateX(1rem);
+}
+
+
+/*Functionality*/
+.navigation-checkbox:checked ~ .navigation-background {
+  transform: scale(80);
+}
+
+.navigation-checkbox:checked ~ .navigation-nav {
+  opacity: 1;
+  width: 100%;
+  left: 0;
+}
+
+/*Icon*/
+ .navigation-icon {
+  width: 2rem;
+  height: 2px;
+  background-color: #333;
+  display: inline-block;
+  content: "";
+  position: relative;
+  margin-top: 1.5rem;
+
+}
+
+.navigation-icon:before {
+  width: 2rem;
+  height: 2px;
+  background-color: #333;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -.8rem;
+  transition: all .2s;
+}
+
+.navigation-icon:after {
+  width: 2rem;
+  height: 2px;
+  background-color: #333;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: .8rem;
+  left: 0;
+  transition: all .2s;
+}
+
+.navigation-button:hover .navigation-icon:before {
+  top: -1rem;
+}
+.navigation-button:hover .navigation-icon:after {
+  top: 1rem;
+}
+
+
+.navigation-checkbox:checked + .navigation-button .navigation-icon {
+  background-color: transparent;
+}
+
+.navigation-checkbox:checked + .navigation-button .navigation-icon:before {
+  transform: rotate(135deg);
+  top: 0;
+}
+
+.navigation-checkbox:checked + .navigation-button .navigation-icon:after {
+  transform: rotate(-135deg);
+  top: 0;
+}
+
+
 .u-center-text {
   text-align: center; 
 }
@@ -1219,6 +1370,66 @@ body {
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .5);
 }
 
+/*Contact Me*/
+
+.contact-page {
+  margin-top: -5%;
+  padding: 0;
+  text-align: center;
+  background-color: #e9eef6;
+  font-family: Lato, san-serif;
+}
+
+.contact-title {
+  margin-top: 5%;
+  color: #696969;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+  padding-top: 3rem;
+  font-size: 3rem;
+  line-height: 1rem;
+}
+.contact-title h1 {
+  font-size: 1.5rem;
+}
+
+.form-control {
+  width: 60%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #696969;
+  color: #696969;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  height: 2rem;
+}
+
+form .submit {
+  background: #cddbea;
+  border-color: transparent;
+  color: #696969;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 3rem;
+  margin-top: 4rem;
+  transition: all .4s;
+}
+form .submit:hover {
+  background: #79a5d0;
+  cursor: pointer;
+  color: #fff;
+  transition: all .4s;
+
+}
+
 a {
   text-decoration: none;
   color: #495363;
@@ -1261,7 +1472,6 @@ a {
    ". movie services photo ."
    ". . tribute . .";
 
-}
 }
 
 .proficiencies {
@@ -1377,6 +1587,7 @@ a {
   border-radius: .75rem;
   box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, .6);
 }
+
 .back-who {
   background-color: #120be8;
   color: white;
@@ -1432,7 +1643,7 @@ a {
   transition: all .5s;
   margin-top: 30%;
 }
-Í
+
 .button-who:hover {
   transform: translateY(-.2rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .5);  
@@ -2494,12 +2705,10 @@ form .submit:hover {
  background-image: linear-gradient(120deg, transparent 0%, transparent 50%,  white 50%);
  background-size: 250%;
  transition: all .4s;
- 
-}
+ }
 
 .navigation-item {
 margin: 1rem;
-
 }
 
 .navigation-link:hover {
@@ -2512,14 +2721,12 @@ margin: 1rem;
 /*Functionality*/
 .navigation-checkbox:checked ~ .navigation-background {
   transform: scale(80);
-
 }
 
 .navigation-checkbox:checked ~ .navigation-nav {
   opacity: 1;
   width: 100%;
   left: 0;
-
 }
 
 /*Icon*/
@@ -2606,7 +2813,6 @@ a {
 }
 
 
-
-
+}
 
 
