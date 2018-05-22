@@ -37,7 +37,7 @@ body {
 
  .heading-primary-main {
  	display: block;
- 	font-size: 2em;
+ 	font-size: 1.9em;
  	font-weight: 400;
  	letter-spacing: .13em;
  	animation-name: moveInLeft;
@@ -124,20 +124,20 @@ body {
 }
 
 .img1 {
-	height:  13rem;
-	width:  13rem;
+	height:  10rem;
+	width:  10rem;
 	position: absolute;
-	left: 30%;
+	left: 10%;
 	top: 5%;
 	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .4);
 	border-radius: 1rem;
 }
 
 .img2 {
-	height:  13rem;
-	width:  13rem;
+	height:  10rem;
+	width:  10rem;
 	position: absolute;
-	left: 45%;
+	left: 55%;
 	top: 30%;
 	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .4);
 	border-radius: 1rem;
@@ -145,33 +145,33 @@ body {
 }
 
 .img3 {
-	height:  13rem;
-	width:  13rem;
+	height:  10rem;
+	width:  10rem;
 	position: absolute;
-	left: 35%;
-	top: 85%;
+	left: 20%;
+	top: 200%;
 	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .4);
 	border-radius: 1rem;
 	z-index: 3;
 }
 
 .img4 {
-	height:  13rem;
-	width: 13rem;
+	height:  10rem;
+	width: 10rem;
 	position: absolute;
 	left: 50%;
-	top: 95%;
+	top: 250%;
 	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .4);
 	border-radius: 1rem;
 	z-index: 1;
 }
 
 .img5 {
-	height:  13rem;
-	width: 13rem;
+	height:  10rem;
+	width: 10rem;
 	position: absolute;
-	left: 43%;
-	top: 120%;
+	left: 35%;
+	top: 400%;
 	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .4);
 	border-radius: 1rem;
 	z-index: 0;
@@ -212,30 +212,30 @@ body {
 .box-who {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: who;
 }
 
 .front-who {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.75rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	position: absolute;
 	transition: 2s;
 	backface-visibility: hidden;
 	border: .2rem solid white;
-	border-radius: .5rem;
+	border-radius: .75rem;
 	box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, .6);
 }
 .back-who {
 	background-color: #120be8;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	position: absolute;
 	transition: 2s;
 	backface-visibility: hidden;
@@ -271,7 +271,7 @@ body {
 } 
 .front-who .technologies {
 	text-align:  center;
-	padding-top: 7%;
+	padding-top: 10%;
 }
 
 .button-who:link, .button-who:visited {
@@ -301,17 +301,17 @@ body {
 .box-event {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: event;
 }
 
 .front-event {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.75rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -324,9 +324,9 @@ body {
 .back-event {
 	background-color: blue;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -355,9 +355,8 @@ body {
 	z-index: 1;
 }
 .front-event .title {
-	text-align:  center;
+	text-align: center;
 	margin-top: 0rem;
-	display: inline-block;
 }
 .front-event .description {
 	text-align:  center;
@@ -395,17 +394,17 @@ body {
 .box-attraction {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: attraction;
 }
 
 .front-attraction {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.75rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -418,9 +417,9 @@ body {
 .back-attraction {
 	background-color: blue;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -458,7 +457,7 @@ body {
 } 
 .front-attraction .technologies {
 	text-align:  center;
-	margin-top: 30%;
+	margin-top: 50%;
 }
 
 .button-attraction:link, .button-attraction:visited {
@@ -487,17 +486,17 @@ body {
 .box-product {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: product;
 }
 
 .front-product {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.75rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -510,9 +509,9 @@ body {
 .back-product {
 	background-color: blue;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -580,17 +579,17 @@ body {
 .box-menu {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: menu;
 }
 
 .front-menu {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.75rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	left: 0;
 	position: absolute;
 	transition: 2s;
@@ -602,9 +601,9 @@ body {
 .back-menu {
 	background-color: blue;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -672,17 +671,17 @@ body {
 .box-author {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: author;
 }
 
 .front-author {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.75rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -695,9 +694,9 @@ body {
 .back-author {
 	background-color: blue;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -764,17 +763,17 @@ body {
 .box-tribute {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: tribute;
 }
 
 .front-tribute {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.75rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -787,9 +786,9 @@ body {
 .back-tribute {
 	background-color: blue;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -856,17 +855,17 @@ body {
 .box-movie {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: movie;
 }
 
 .front-movie {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.75rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -879,9 +878,9 @@ body {
 .back-movie {
 	background-color: blue;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -948,17 +947,17 @@ body {
 /*.box-toy {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: toy;
 }
 
 .front-toy {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.7rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -971,9 +970,9 @@ body {
 .back-toy {
 	background-color: blue;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -1040,17 +1039,17 @@ body {
 .box-photo {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: photo;
 }
 
 .front-photo {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.7rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -1063,9 +1062,9 @@ body {
 .back-photo {
 	background-color: blue;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -1132,17 +1131,17 @@ body {
 .box-services {
 	position: absolute;
 	transform: translate(-50% -50%);
-	width: 13rem;
-	height: 13rem;
+	width: 10rem;
+	height: 10rem;
 	grid-area: services;
 }
 
 .front-services {
 	background-color: red;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1.7rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 1.2rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -1155,9 +1154,9 @@ body {
 .back-services {
 	background-color: blue;
 	color: white;
-	height: 13rem;
-	width: 13rem;
-	font-size: 1rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: .9rem;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -1220,6 +1219,30 @@ body {
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .5);
 }
 
+a {
+  text-decoration: none;
+  color: #495363;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dcdfe5;
+  height: 4rem;
+  margin-top: 0rem;
+  list-style: none;
+}
+
+
+.footer li {
+  font-size: 1rem;
+}
+.footer li:hover {
+  font-size: 3rem;
+}
+
+
 
 
 @media screen and (min-width: 736px)
@@ -1266,10 +1289,6 @@ body {
 .contact-title h1 {
 	font-size: 1.5rem;
 }
-
-/*form {
-	margin-top: 0rem;
-}*/
 
 .form-control {
 	width: 60%;
@@ -1478,7 +1497,7 @@ a {
 
 
 .footer li:hover {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 
