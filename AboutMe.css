@@ -80,7 +80,7 @@ body {
 }
 
 .navigation-link {
-  display: inline-block;
+ display: inline-block;
  font-size: 3rem;
  font-weight: 300;
  padding: 1rem 1rem;
@@ -90,12 +90,10 @@ body {
  background-image: linear-gradient(120deg, transparent 0%, transparent 50%,  white 50%);
  background-size: 250%;
  transition: all .4s;
- 
-}
+ }
 
 .navigation-item {
 margin: 1rem;
-
 }
 
 .navigation-link:hover {
@@ -108,14 +106,12 @@ margin: 1rem;
 /*Functionality*/
 .navigation-checkbox:checked ~ .navigation-background {
   transform: scale(80);
-
 }
 
 .navigation-checkbox:checked ~ .navigation-nav {
   opacity: 1;
   width: 100%;
   left: 0;
-
 }
 
 /*Icon*/
@@ -175,6 +171,7 @@ margin: 1rem;
   transform: rotate(-135deg);
   top: 0;
 }
+
 
 
 h1 {
