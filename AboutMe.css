@@ -81,7 +81,7 @@ body {
 
 .navigation-link {
  display: inline-block;
- font-size: 3rem;
+ font-size: 2.5rem;
  font-weight: 300;
  padding: 1rem 1rem;
  color: white;
@@ -93,7 +93,7 @@ body {
  }
 
 .navigation-item {
-margin: 1rem;
+margin: -1rem;
 }
 
 .navigation-link:hover {
@@ -217,21 +217,3 @@ a {
 }
 
 
-
-
-
-
-
-
-
-/*.footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: red;
-  position: relative;
-  height: 5rem;
-  width: 100vw;
-  margin-top: 1rem;
-  align-items: center;
-}
-*/
