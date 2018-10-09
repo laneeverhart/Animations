@@ -422,7 +422,7 @@ margin: -1rem;
 } 
 .front-who .technologies {
 	text-align:  center;
-	padding-top: 10%;
+	margin-top: 20%;
 }
 
 .button-who:link, .button-who:visited {
@@ -977,7 +977,7 @@ margin: -1rem;
 } 
 .front-tribute .technologies {
 	text-align:  center;
-	margin-top: 50%;
+	margin-top: 30%;
 }
 
 .button-tribute:link, .button-tribute:visited {
@@ -1450,7 +1450,7 @@ a {
   font-size: 1rem;
 }
 .footer li:hover {
-  font-size: 3rem;
+  font-size: 1.2rem;
 }
 
 
@@ -2184,7 +2184,7 @@ a {
 } 
 .front-tribute .technologies {
   text-align:  center;
-  margin-top: 50%;
+  margin-top: 30%;
 }
 
 .button-tribute:link, .button-tribute:visited {
@@ -2805,7 +2805,7 @@ a {
 
 
 .footer li:hover {
-  font-size: 3rem;
+  font-size: 2.2rem;
 }
 
 .footer li {
