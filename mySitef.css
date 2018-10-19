@@ -885,7 +885,7 @@ margin: -1rem;
 } 
 .front-author .technologies {
 	text-align:  center;
-	margin-top: 50%;
+	margin-top: 30%;
 }
 
 .button-author:link, .button-author:visited {
@@ -2092,7 +2092,7 @@ a {
 } 
 .front-author .technologies {
   text-align:  center;
-  margin-top: 50%;
+  margin-top: 30%;
 }
 
 .button-author:link, .button-author:visited {
@@ -2805,11 +2805,11 @@ a {
 
 
 .footer li:hover {
-  font-size: 2.2rem;
+  font-size: 3.2vw;
 }
 
 .footer li {
-  font-size: 2rem;
+  font-size: 3.2vw;
 }
 
 
