@@ -1,2 +1,2 @@
-# My-Site
-My Portfolio Page
+# Animations
+My Animations Page
